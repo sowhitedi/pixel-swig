@@ -1,0 +1,288 @@
+body{
+	background-color:#2B2B2B;
+	background: url(images/background.png) repeat top left;
+	height:2000px;
+}
+
+.img, object{
+	max-width: 100%;
+}
+#header{
+	width:100%;
+	height:7em;
+	background-color:rgba(26, 26, 26, 0.42);
+	position:fixed;
+	top:0px;
+	z-index: 10;
+}
+
+#logo {
+	height:100%;
+	width:142px;
+	margin: 0px 43% 0px;
+	top:0px;
+	position:relative;
+}
+
+
+
+.nav{
+	top:-110px;
+	width:75%;
+	max-width: 1000px;
+	margin: 0px auto;
+	position:relative;
+}
+
+li{
+	list-style: none;
+	display:inline-block;
+	width:33%;
+	text-align: center;
+}
+
+a{
+	font-family: helvetica;	font-family: 'Whitney Cond A', 'Whitney Cond B'; 
+	font-weight: 500; 
+	font-style: normal;	
+	color:#28bcb3;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 1em;
+	text-decoration: none;
+	text-align: center;
+	transition-property:color;
+	transition-duration:.3s;
+
+}
+
+a:hover{
+	color:white;
+	transition-property:color;
+	transition-duration:.3s;
+}
+
+#content{
+	padding-top: 200px;
+	background: url(images/brandyglass.png) no-repeat 50% -3% scroll;
+	background-size: 800px;
+	height:60%;
+}
+
+h1{
+	font-family: 'Whitney Cond A', 'Whitney Cond B'; 
+	font-weight: 500; 
+	font-style: normal;
+	font-size:2em;
+	color:white;
+	text-align: center;
+	margin:15px 20% 0px;
+}
+
+.event-panel{
+	position:relative;
+	width:100%;
+	background-color:rgba(26, 26, 26, 0.42);
+	margin-top:3em;
+	height:340px;
+}
+
+
+h2{
+	font-family: 'Whitney Cond A', 'Whitney Cond B'; 
+	font-weight: 800; 
+	font-style: normal;
+	font-size: 14em;
+	color:#f9a341;
+	text-align: right;
+	margin:0px;
+}
+
+.details{
+	margin: 66px 0px 0px 15px;
+}
+
+h3{
+	font-family: 'Whitney Cond A', 'Whitney Cond B'; 
+	font-weight: 500; 
+	font-style: normal;
+	font-size:2em;
+	color:#f9a341;
+	text-align: left;
+	margin:0px 0px 10px 0px;
+}
+
+.event-title{
+	text-transform: uppercase;
+	color: #ed3580;
+}
+
+h4{
+	font-family: 'Whitney Cond A', 'Whitney Cond B'; 
+	font-weight: 700; 
+	font-style: normal;
+	font-size: 1.25em;
+	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #f9a341;
+	margin:0px 0px 10px 0px;
+}
+
+p{
+	font-family: 'Whitney Cond A', 'Whitney Cond B'; 
+	font-weight: 500; 
+	font-style: normal;
+	font-size:1.5em;
+	color:#28bcb3;
+	text-align: left;
+	margin:0px 0px 10px 0px;
+}
+
+h4.thanks{
+	text-align: center;
+}
+
+/* #Media Queries
+================================================== */
+@media only screen and (max-width: 1000px) {
+
+}
+
+@media only screen and (max-width: 950px) {
+	#logo{
+		margin: 0px 42% 0px;
+	}
+	h1{
+		font-size: 1.75em;
+	}
+
+	.details{
+		margin:66px 0px 0px 20px;
+	}
+
+	h2{
+		font-size: 13em;
+		margin-right: 0px;
+		margin-top: 9px;
+
+	}
+
+	h3{
+		font-size:1.75em;
+	}
+	h4{
+		font-size: 1em;
+	}
+	p{
+		font-size: 1.375em;
+	}
+
+}
+
+@media only screen and (max-width: 810px) {
+	#logo{
+		margin: 0px 41% 0px;
+	}
+	h1{
+		margin:15px 10% 0px;
+	}
+	h2{
+		font-size: 12em;
+		margin-right: 0px;
+		margin-top: 9px;
+	}
+
+	h3{
+		font-size:1.5em;
+	}
+	h4{
+		font-size: .875em;
+	}
+	p{
+		font-size: 1.25em;
+	}
+
+}
+
+@media only screen and (max-width: 690px) {
+
+	#logo{
+		margin: 0px 40% 0px;
+	}
+	h1{
+		margin: 15px 10% 0px;
+	}
+}
+
+@media only screen and (max-width: 690px) {
+	.grid_1,
+	.grid_2,
+	.grid_3,
+	.grid_4,
+	.grid_5,
+	.grid_6,
+	.grid_7,
+	.grid_8,
+	.grid_9,
+	.grid_10,
+	.grid_11,
+	.grid_12 {
+		width:100%;
+		}
+	#header{
+		height:5em;
+	}	
+
+	#logo{
+		width:116px;
+	}
+
+	#content{
+		padding-top: 162px;
+		background: url(images/brandyglass.png) no-repeat 50% -6% scroll;
+		background-size: 700px;
+		height: 60%;
+	}
+
+	h1{
+		margin-top: 0px;
+	}	
+	.event-panel{
+		margin-top: 2em;
+		height:360px;
+
+	}	
+	h2{
+		font-size: 8em;
+		text-align: center;
+		margin-top:-12px;
+	}
+
+	.details{
+		margin:0px;
+	}
+	h3{
+		font-size:1.5em;
+		text-align: center;
+	}
+	h4{
+		font-size: .875em;
+		text-align: center;	
+	}
+	p{
+		font-size: 1.25em;
+		text-align: center;	
+	}	
+}
+
+
+@media only screen and (max-width: 380px) {
+	#logo{
+		margin:0 auto;
+	}
+	.nav{
+		margin: -48px -20px 0px 70%;
+		display: inline-block;
+		}
+}		
