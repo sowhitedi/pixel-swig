@@ -1,7 +1,8 @@
 body{
 	background-color:#2B2B2B;
-	background: url(images/background.png) repeat top left;
+	background: url(images/brandyglass.png) no-repeat 50% 0px, url(img/background.png) repeat top left #2B2B2B;
 	height:2000px;
+	background-size:800px, 100%;
 }
 
 .img, object{
@@ -23,7 +24,6 @@ body{
 	top:0px;
 	position:relative;
 }
-
 
 
 .nav{
@@ -64,7 +64,7 @@ a:hover{
 
 #content{
 	padding-top: 200px;
-	background: url(images/brandyglass.png) no-repeat 50% -3% scroll;
+/*	background: url(images/brandyglass.png) no-repeat 50% -3% scroll;*/
 	background-size: 800px;
 	height:60%;
 }
@@ -83,8 +83,9 @@ h1{
 	position:relative;
 	width:100%;
 	background-color:rgba(26, 26, 26, 0.42);
-	margin-top:3em;
+	margin-top:-66em;
 	height:340px;
+	z-index: 5;
 }
 
 
