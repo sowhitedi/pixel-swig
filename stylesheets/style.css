@@ -424,7 +424,6 @@ a.footer-link{
 @media only screen and (max-width: 490px){
 	body{
 		background: url(images/background.png) repeat top left #2B2B2B;
-		background-size:100%;
 	}
 
 	#logo {
