@@ -421,12 +421,103 @@ a.footer-link{
 	}
 }
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 490px){
+	body{
+		background: url(images/background.png) repeat top left #2B2B2B;
+		background-size:100%;
+	}
+
+	#logo {
+		width: 100px;
+		margin: 0px 37% 0px;
+}
+
+	.nav{
+		top: -90px;
+		width: 83%;
+	}
+
+	.li{
+		width:32%;
+	}
+
+	h1{
+		font-size: 1.5em;
+	}
+
+	.social{
+		margin: 17px 41% 0px;
+	}
+
+}
+
+@media only screen and (max-width: 450px){
+	.about{
+		height:640px;
+	}	
+	.social {
+		margin: 17px 40% 0px;
+	}
+}
+
+@media only screen and (max-width: 400px){
+
 	#logo{
 		margin:0 auto;
 	}
 	.nav{
-		margin: -48px -20px 0px 70%;
+		margin: -20px 0px 0px 64%;
 		display: inline-block;
 		}
-}		
+	li{
+		display: block;
+		width: 29%;
+		padding-bottom: 4px;
+		text-align: right
+	}	
+	.about{
+		height:690px;
+	}	
+	.social {
+		margin: 17px 40% 0px;
+	}	
+}	
+
+@media only screen and (max-width: 380px){
+	h1{
+		font-size: 1.25em;
+	}
+	h2{
+		font-size: 7em;
+	}
+	h3{
+		font-size: 1.25em;
+	}
+	p{
+		font-size: 1.125em;
+	}
+	.event-panel{
+		height: 380px;
+	}	
+	
+	.about{
+		height:750px;
+	}
+	.mattison{
+		width:90%;
+	}
+
+}	
+
+@media only screen and (max-width: 280px){
+	.event-panel{
+		height:420px;
+	}
+
+	.about{
+		height:850px;
+	}
+	.social {
+		margin: 17px 35% 0px;
+	}
+}	
