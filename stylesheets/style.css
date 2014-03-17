@@ -104,11 +104,11 @@ h2{
 	font-size: 14em;
 	color:#f9a341;
 	text-align: right;
-	margin:0px;
+	margin:0 35px 0 0;
 }
 
 .details{
-	margin: 66px 0px 0px 15px;
+	margin: 66px 0px 0px 0px;
 }
 
 h3{
@@ -265,12 +265,12 @@ a.footer-link{
 	}
 
 	.details{
-		margin:66px 0px 0px 20px;
+		margin:66px 0px 0px 0px;
 	}
 
 	h2{
 		font-size: 13em;
-		margin-right: 0px;
+		margin-right: 25px;
 		margin-top: 9px;
 
 	}
@@ -296,7 +296,7 @@ a.footer-link{
 	}
 	h2{
 		font-size: 12em;
-		margin-right: 0px;
+		margin-right: 20px;
 		margin-top: 9px;
 	}
 
