@@ -138,6 +138,18 @@ h4{
 	margin:0px 0px 10px 0px;
 }
 
+h4 a{
+	font-family: 'Whitney Cond A', 'Whitney Cond B'; 
+	font-weight: 700; 
+	font-style: normal;
+	font-size: 1.25em;
+	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #f9a341;
+	margin:0px 0px 10px 0px;
+}
+
 p{
 	font-family: 'Whitney Cond A', 'Whitney Cond B'; 
 	font-weight: 500; 
